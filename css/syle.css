@@ -1,0 +1,38 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.contenedor h1{
+    padding-left: 20px;
+}
+.contenedor i {
+    font-size: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Espacio entre los elementos */
+    width: 400px; /* Ancho total de la grilla */
+    margin: 0 auto; /* Centrar la grilla horizontalmente */
+}
+
+.grid-item {
+    background: linear-gradient(45deg, #e3dd6b, #e74c3c);
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: 30px; 
+}
+
+
+.fa-google{
+    font-size: 10px;
+}
+
+.fa-brands{
+    color: bisque;
+}
+.fa-solid{
+    color: blueviolet;
+}
