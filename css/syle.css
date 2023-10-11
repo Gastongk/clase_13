@@ -44,3 +44,11 @@ button i{
 .fa-solid{
     color: blueviolet;
 }
+article{
+    padding: 50px;
+}
+article ul{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
