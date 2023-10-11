@@ -16,7 +16,12 @@ button i{
     margin-right: 90px;
 
 }
-
+main{
+    margin: 30px;
+}
+main button{
+    margin-top: 30px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -32,6 +37,7 @@ button i{
     text-align: center; 
     font-size: 30px; 
 }
+
 
 
 .fa-google{
@@ -51,4 +57,12 @@ article ul{
     display: flex;
     align-items: start;
     justify-content: space-around;
+}
+.claseNueva{
+    
+    font-size: 26px;
+}
+.claseNueva a{
+    font-family: Arial, sans-serif; 
+    color: #ea2323; 
 }

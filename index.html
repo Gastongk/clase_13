@@ -24,37 +24,56 @@
         <h3>Font awesome</h3>
     </div>
     <main>
-        <div class="grid-container">
-            <div class="grid-item "><i class="fa-brands fa-google"></i></div>
-            <div class="grid-item"><i class="fa-brands fa-facebook"></i></div>
-            <div class="grid-item"><i class="fa-brands fa-twitch fa-spin" style="color: #61e8ea;"></i></div>
-            <div class="grid-item"><i class="fa-brands fa-instagram"></i></div>
-            <div class="grid-item"><i class="fa-brands fa-xbox fa-shake" style="color: #3bc431;"></i></i></div>
-            <div class="grid-item"><i class="fa-brands fa-playstation"></i></div>
-            <div class="grid-item"><i class="fa-brands fa-apple"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-gamepad"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-dumbbell"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-person-swimming fa-flip" style="color: #8db0ec;"></i></i></div>
-            <div class="grid-item"><i class="fa-solid fa-person-skiing"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-person-biking"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-location-dot"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-plane"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-car-side fa-beat" style="color: #2caf5a;"></i></div>
-            <div class="grid-item"><i class="fa-solid fa-bus"></i></div>
+        <div>
+            <div class="grid-container">
+                <div class="grid-item "><i class="fa-brands fa-google"></i></div>
+                <div class="grid-item"><i class="fa-brands fa-facebook"></i></div>
+                <div class="grid-item"><i class="fa-brands fa-twitch fa-spin" style="color: #61e8ea;"></i></div>
+                <div class="grid-item"><i class="fa-brands fa-instagram"></i></div>
+                <div class="grid-item"><i class="fa-brands fa-xbox fa-shake" style="color: #3bc431;"></i></i></div>
+                <div class="grid-item"><i class="fa-brands fa-playstation"></i></div>
+                <div class="grid-item"><i class="fa-brands fa-apple"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-gamepad"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-dumbbell"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-person-swimming fa-flip" style="color: #8db0ec;"></i></i></div>
+                <div class="grid-item"><i class="fa-solid fa-person-skiing"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-person-biking"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-plane"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-car-side fa-beat" style="color: #2caf5a;"></i></div>
+                <div class="grid-item"><i class="fa-solid fa-bus"></i></div>
+            </div>
+        </div>
+        <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action" id="btnToggle">Mostrar</button>
         </div>
     </main>
-    <article>
-        <ul>
-            <li>
-                <a href="https://www.ejemplo.com">Enlace 1</a>
-            </li>
-            <li>
-                <a href="https://www.ejemplo.com">Enlace 2</a>
-            </li>
-            <li>
-                <a href="https://www.ejemplo.com">Enlace 3</a>
-            </li>
-        </ul>
+    <article id="mostrar" style="display: none">
+        <div class="lista">
+            <ul>
+                <li>
+                    <a href="https://www.ejemplo.com">Enlace 1</a>
+                </li>
+                <li>
+                    <a href="https://www.ejemplo.com">Enlace 2</a>
+                </li>
+                <li>
+                    <a href="https://www.ejemplo.com">Enlace 3</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <button class="btn waves-effect waves-light" type="submit" name="action" id="cambiar">Cambiar contenido
+            </button>
+            <div id="contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quas quae similique aperiam minima nulla et quasi incidunt dolorum esse, aliquid at possimus laudantium quod beatae eum aliquam. Neque, dignissimos?</p>
+                
+            </div>
+            <div>
+                <button class="btn waves-effect waves-light" type="submit" name="action" id="addClase">Agregar Clase
+                  </button>
+            </div>
+        </div>
     </article>
     <script src="js/script.js"></script>
 </body>
